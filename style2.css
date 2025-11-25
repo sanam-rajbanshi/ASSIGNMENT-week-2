@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+
+#contactForm {
+    text-align: center;
+}
+
+
+.form-field {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: rgb(90, 126, 36);
+    color: white;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+input[type="submit"]:hover {
+    background-color: blueviolet;
+}
